@@ -3,7 +3,6 @@
 ![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?style=for-the-badge&logo=go)
 ![Gin](https://img.shields.io/badge/Gin-Web_Framework-00A86B?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/API-REST-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Portfolio_Project-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
 Backend REST API built with **Golang** and **Gin Framework** to provide MRT Jakarta station data using clean modular architecture.
