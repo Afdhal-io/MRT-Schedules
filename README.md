@@ -61,3 +61,64 @@ MRT-Schedules/
         ├── dto.go
         └── common/
             └── client/
+```
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+go mod tidy
+```
+
+### 3️⃣ Run Application
+
+```bash
+go run main.go
+```
+
+### Server will run on 
+```bash
+http://localhost:8080
+```
+
+### 🔌 API Endpoints
+
+### Get All Stations (on postman)
+```bash
+http://localhost:8080/v1/api/stations
+```
+
+### Example Response
+```bash
+{
+  "success": true,
+  "message": "Successfully get all station",
+  "data": [
+    {
+      "id": 1,
+      "name": "Bundaran HI"
+    },
+    {
+      "id": 2,
+      "name": "Dukuh Atas"
+    }
+  ]
+}
+```
+
+### ⚠️ Note
+
+This project originally consumed public MRT Jakarta external endpoint data.
+
+Some upstream public endpoints may no longer be available or may return deprecated responses.
+
+This repository is maintained for portfolio purposes to showcase backend development skills using Golang.
+
+### 👨‍💻 Author
+Afdhal-io
